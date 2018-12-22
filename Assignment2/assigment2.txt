@@ -1,0 +1,1 @@
+Two part assignment: The first part revolves around deriving the arbitrage pricing theory model discussed in class. The second part is the implementation of a neural network model to predict stock market returns. 
