@@ -1,0 +1,3 @@
+Design and develop machine learning models for corporate bankruptcy prediction using the data provided in either R or Python.
+
+•	The assignment requires to implement at least 2 different models from the following list: Random Forest, Support Vector Machines, Logistic Regression, Discriminant Analysis (LDA & QDA), Naïve Bayes Classification.  
