@@ -46,13 +46,6 @@ os_data_X,os_data_y=os.fit_sample(X_train, y_train)
 os_data_X = pd.DataFrame(data=os_data_X,columns=columns )
 os_data_y= pd.DataFrame(data=os_data_y,columns=['BadLoan'])
 
-# we can Check the numbers of our data
-print("length of oversampled data is ",len(os_data_X))
-print("Number of good loans oversampled data",len(os_data_y[os_data_y["BadLoan"]==0]))
-print("No.of Bad Loans",len(os_data_y[os_data_y["BadLoan"]==1]))
-print("Proportion of Non-Bankrupt data in oversampled data is ",len(os_data_y[os_data_y["BadLoan"]==0])/len(os_data_X))
-print("Proportion of Bankrupt in oversampled data is ",len(os_data_y[os_data_y["BadLoan"]==1])/len(os_data_X))
-
 #pca = PCA(n_components=72)
 #pca_result = pca.fit_transform(os_data_X)
  
